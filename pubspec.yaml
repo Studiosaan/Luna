@@ -1,0 +1,31 @@
+name: untitled
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sweph: ^2.10.3
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1 # API 통신을 위해 추가
+  intl: ^0.20.2 # 날짜 및 시간 포맷팅을 위해 추가
+  provider: ^6.1.5 # 상태 관리를 위해 추가 (선택 사항이지만 추천)
+  timezone: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/semo_18.se1
+    - assets/sepl_18.se1
+  uses-material-design: true
